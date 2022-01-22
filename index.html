@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Penguin Fashion</title>
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	<!-- <link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="carousel.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Header START -->
+<header>
+	<nav class="navbar navbar-expand-md">
+	  <div class="container pt-3 pb-3">
+		<a class="navbar-brand" href="#">
+			<img height="36" class="d-inline-block align-text-top" src="images/logo.png" alt="">
+		</a>
+		<button class="navbar-toggler bg-light text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link link-dark px-4" aria-current="page" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link link-dark px-4" href="#">Product</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link link-dark px-4">About Us</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link link-dark px-4">Contact Us</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  </header>
+<!-- Header END -->
+
+
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+		<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+		  <div class="row">
+			  <div class="col-md-6 align-self-center">
+				  <h1 class="text-warning text-uppercase">
+					Be the Penguins <br>
+					<span class="text-dark">Of Winter</span>
+				  </h1>
+				  <p class="">
+					  Lorem Ipsum is simply dummy text of the printing 
+					  <br>
+					  and typesetting industry.
+				  </p>
+				  <button type="button" class="btn btn-success btn-lg"><i class="fa fa-shopping-cart"></i> BUY NOW</i> </button>
+			  </div>
+			  <div class="col-md-6">
+				<img src="images/model.png" alt="">
+			  </div>
+		  </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- bootstrap Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+
+</body>
+</html>
